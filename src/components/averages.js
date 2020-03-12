@@ -5,7 +5,7 @@ const Averages = ({ average }) => {
     return null;
   }
   return (
-    <div>
+      <div>
       <center><h1>Rating</h1></center>
         <div className="card">
           <div className="card-body">

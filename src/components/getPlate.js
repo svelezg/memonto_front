@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { getVehicleAll } from "./getVehicleInfo";
 
 export default class GetPlate extends Component {
     constructor () {
