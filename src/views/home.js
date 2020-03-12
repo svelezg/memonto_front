@@ -27,7 +27,7 @@ export default class Home extends Component {
 
         loginUser(user).then(res => {
             if (res !== undefined) {
-                this.props.history.push('/plate');
+                this.props.history.push('/getplate');
             }
             else
                 this.props.history.push('/');

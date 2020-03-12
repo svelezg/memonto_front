@@ -38,7 +38,6 @@ export default class Plate extends Component {
         const vehicle = this.state.vehicles;
         const reviews = this.state.reviews;
         const averages = this.state.average;
-    let body = "Hello World";
 
     return (
         <React.Fragment>

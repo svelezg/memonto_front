@@ -66,7 +66,7 @@ export const getAverageVehicle = Id => {
                 },
             })
         .then(res => {
-            return res.data;
+            return {Average: res.data.Average.toFixed(1)};
         })
         .catch(console.log)
 };
@@ -84,7 +84,10 @@ export const getDriverInfo = Id => {
                 },
             })
         .then(res => {
-            return res.data;
+            const newData = {text: res.data.text,
+                createdAt: res.data.createdAt.substring(1, 10)};
+            return newData;
         })
         .catch(console.log)
 };
+

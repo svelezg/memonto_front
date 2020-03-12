@@ -20,7 +20,6 @@ export default class PlateAll extends Component {
 
     render () {
         const vehicle = this.state.vehicles;
-    let body = "Hello World";
 
     return (
         <React.Fragment>
